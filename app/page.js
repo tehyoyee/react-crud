@@ -10,6 +10,8 @@ export default async function Home() {
   
   console.log(result)
 
+  // await fetch('URL', {next : {revalidate : 60}})
+
   return (
     <div>
 
