@@ -1,7 +1,6 @@
 'use client'
 
 import { useEffect, useState } from "react"
-import CommentList from "./CommentList"
 
 export default function Comment({result}) {
 	let [comment, setComment] = useState('')
