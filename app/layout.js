@@ -15,6 +15,8 @@ export const metadata = {
 
 export default async function RootLayout({ children }) {
   let session = await getServerSession(authOptions)
+
+  useState('다크')
   return (
     <html>
       <body>
